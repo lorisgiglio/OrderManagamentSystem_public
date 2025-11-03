@@ -46,7 +46,7 @@ namespace OrderManagement.Api.Users.API.Endpoints
                 var user = await repo.GetByIdAsync(id);
                 if (user == null) return Results.NotFound();
 
-                await repo.UpdateAsync(user);
+                await repo.DeleteAsync(user);
                 return Results.NoContent();
             });
 
