@@ -47,7 +47,7 @@ namespace OrderManagement.Api.Addresses.API.Endpoints
                 var address = await repo.GetByIdAsync(id);
                 if (address == null) return Results.NotFound();
 
-                await repo.UpdateAsync(address);
+                await repo.DeleteAsync(address);
                 return Results.NoContent();
             });
 
