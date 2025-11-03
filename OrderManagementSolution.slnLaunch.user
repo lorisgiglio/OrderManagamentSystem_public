@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Nuovo profilo",
+    "Projects": [
+      {
+        "Path": "Api\\OrderManagement.Api.Addresses\\OrderManagement.Api.Addresses.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "Api\\OrderManagement.Api.Categories\\OrderManagement.Api.Categories.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "Api\\OrderManagement.Api.Orders\\OrderManagement.Api.Orders.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "Api\\OrderManagement.Api.Product\\OrderManagement.Api.Products.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      },
+      {
+        "Path": "Api\\OrderManagement.Api.Users\\OrderManagement.Api.Users.csproj",
+        "Action": "Start",
+        "DebugTarget": "https"
+      }
+    ]
+  }
+]
